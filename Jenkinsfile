@@ -8,11 +8,9 @@ pipeline {
         '''
       }
     }
-    stage('Test') {
-            agent { docker 'openjdk:11-jdk' } 
+    stage ('Test') {
             steps {
                 echo 'Hello, JDK'
-                sh 'java -version'
             }
         }
     }
