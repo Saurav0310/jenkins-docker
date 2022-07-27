@@ -1,5 +1,4 @@
-FROM node:16-alpine
+FROM ubuntu
 
 RUN apk add -U git curl
 
-MAINTAINER Saurav
