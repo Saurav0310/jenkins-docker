@@ -11,8 +11,9 @@ pipeline {
       }
     }
     stage('Build'){
-      steps ('Buildinfg')
- }
-        }
+      steps{
+        echo'Buildinfg'
+      }
     }
+  }
 }
