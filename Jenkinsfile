@@ -10,5 +10,9 @@ pipeline {
         '''
       }
     }
-  }
-} 
+    stage('Build'){
+      steps ('Buildinfg')
+ }
+        }
+    }
+}
